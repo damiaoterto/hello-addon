@@ -1,0 +1,14 @@
+{
+  "name": "hello-addon",
+  "version": "1.0.0",
+  "description": "A hello world using v8 engine for create a native node.js module.",
+  "keywords": [],
+  "author": "Francisco Damião Terto <contato@damiaoterto.dev>",
+  "license": "MIT",
+  "scripts": {
+    "build": "node-gyp configure build"
+  },
+  "devDependencies": {
+    "node-gyp": "^9.3.1"
+  }
+}
